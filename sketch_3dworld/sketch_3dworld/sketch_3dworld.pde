@@ -8,8 +8,8 @@ void draw() {
   lights();
   background(255);
   
-  camera((mouseX-width/2)*-1, (mouseY-height/2)*-1, 100.0, 
-  0.0, 0.0, 0.0, 
+  camera(100, 0, 100.0, 
+  (mouseX-width/2), (mouseY-width/2), 0.0, 
   0.0, 1.0, 0.0);
   
   
