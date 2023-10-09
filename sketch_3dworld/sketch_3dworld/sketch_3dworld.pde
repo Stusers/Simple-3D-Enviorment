@@ -21,6 +21,7 @@ void draw() {
   box(180);
   
   //Movement
-  if ((keyPressed == true) && (key == 'w') {
+  
+    
     
 }
